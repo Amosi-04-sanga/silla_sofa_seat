@@ -1,0 +1,33 @@
+.bgImage {
+    width: 100%;
+    height: 50vh;
+    position: relative;
+}
+
+.headerImage {
+    position: absolute;
+}
+
+.header {
+    position: absolute;
+    background-color: rgba(17, 15, 17, 0.6);
+}
+
+.headerImage,
+.header {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.headerContacts {
+    background-color: rgba(194, 211, 226, .9);
+    width: 200px;
+    height: 30%;
+    padding-top: 10px;
+    position: absolute;
+    right: 0;
+    bottom: -60px;
+    border-radius: 0 0 0 .4rem;
+}

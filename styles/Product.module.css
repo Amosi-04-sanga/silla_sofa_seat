@@ -1,0 +1,103 @@
+.headingUnderline {
+    position: relative;
+    display: inline-block;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.headingUnderline::before {
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    content: "";
+    width: 50%;
+    height: 4px;
+    background-color: rgba(171, 145, 145, 0.457);
+}
+
+.imageGrid {
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: .5rem;
+}
+
+.imageContainer {
+    height: 52vh;
+    border-radius: .4rem .4rem 0 0;
+    overflow: hidden;
+    margin: 1rem auto;
+}
+
+.imageContainer img {
+    border-radius: inherit;
+    height: 80%;
+    transition: all 200ms ease-in-out;
+}
+
+.imageContainer:hover img {
+    transform: scale(1.08);
+}
+
+.description {
+    background-color: rgba(0, 0, 255, 0.298);
+    padding-top: 1rem;
+    height: 20%;
+    position: relative;
+    z-index: 2;
+}
+
+.services {
+    width: 60%;
+    margin: 4rem auto;
+}
+
+@media screen and ( max-width: 400px) {
+    .services {
+        width: 90%;
+    }
+    .imageGrid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.smallText {
+    font-size: .9rem;
+    margin: 1rem auto;
+    border-left: 2px solid rgba(255, 0, 255, 0.351);
+    padding: 0 .7rem;
+    border-radius: .3rem 0 0 0;
+}
+
+
+/* testemonials */
+.client {
+    box-shadow: 0 0 5px rgba(15, 15, 14, 0.148);
+    padding: .4rem;
+}
+.imageWrapper {
+    width: 70px;
+    height: 70px;
+    border-radius: 2rem;
+    padding: .15rem;
+    background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgba(203,163,191,1) 0%, rgba(187,187,224,1) 0%, rgba(177, 29, 235, 0.427) 20%, rgba(138,211,224,1) 100%);
+    margin: auto;
+}
+.imageWrapper img {
+    border-radius: inherit;
+}
+.clientText {
+    width: 150px;
+    font-size: .9rem;
+    margin: .4rem auto;
+    text-indent: 10px;
+}
+.clientText::before {
+    content: open-quote;
+    font-size: 2rem;
+}
+.clientText::after {
+    content: close-quote;
+    font-size: 1rem;
+}
