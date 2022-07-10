@@ -7,7 +7,7 @@ const Nav = () => {
     <>
       <nav className={`${styles.navbar} flex`}>
         <div className="text-2xl uppercase ml-2 italic flex items-center">logo</div>
-        <div className='w-1/2 ml-auto flex items-center justify-around'>
+        <div className={`${styles.navlinks} ml-auto flex items-center justify-around`}>
           <Link href="/" >Home</Link>
           <Link href="/contacts" >Contacts</Link>
           <Link href="/about" >about</Link>
