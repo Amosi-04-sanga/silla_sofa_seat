@@ -10,7 +10,6 @@ const product_card = ({ sofa }) => {
     <>
       <Link href="/sofa-item" >
         <div className={styles.imageContainer} >
-          <img className='w-full' src={sofa.frontImage.fields.file.url} alt="front image" />
           <div className={styles.description}>
             <h3 className='text-sm p-px' > {sofa.title} </h3>
             <p className='text-sm p-px' >pata kwa bei ya TSH {sofa.price}/= </p>
@@ -23,3 +22,5 @@ const product_card = ({ sofa }) => {
 
 export default product_card
 
+    
+//     <img className='w-full' src={sofa.frontImage.fields.file.url} alt={sofa.title} />
