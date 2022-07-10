@@ -7,7 +7,7 @@ const product_card = ({ sofa }) => {
 
   return (
     <>
-      <Link href="/sofa-item" >
+      <Link href="#" >
 
         <div className={styles.imageContainer} >
           <img className='w-full' src={sofa.frontImage.fields.file.url} alt={sofa.title} />
