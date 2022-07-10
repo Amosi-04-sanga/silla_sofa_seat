@@ -80,7 +80,7 @@ export default function Home() {
           {
             !data ? "loading..." : (
               data.map((item, index) => (
-                <h1>Product</h1>
+                <h1 key={index} >Product</h1>
               ))
             )
           }
