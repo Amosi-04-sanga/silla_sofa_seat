@@ -1,8 +1,8 @@
 import Head from 'next/head'
-import Header from './components/Header'
+import Header from '../components/Header'
 import { createClient } from 'contentful'
 import { useEffect, useState } from 'react'
-import ProductCard from './components/product_card'
+import ProductCard from '../components/product_card'
 import styles from '../,,/../styles/Product.module.css'
 import ImageGallery from 'react-image-gallery'
 import "react-image-gallery/styles/css/image-gallery.css"
@@ -80,7 +80,7 @@ export default function Home() {
           {
             !data ? "loading..." : (
               data.map((item, index) => (
-                <h1 key={index} >Product</h1>
+                < ProductCard key={index} sofa={item.fields} />
               ))
             )
           }
@@ -176,4 +176,3 @@ export default function Home() {
   )
 }
 
-// < ProductCard key={index} sofa={item.fields} />

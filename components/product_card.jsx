@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
-import styles from '../../styles/Product.module.css'
+import styles from '../styles/Product.module.css'
 
 
 const product_card = ({ sofa }) => {
