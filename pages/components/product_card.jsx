@@ -8,17 +8,15 @@ const product_card = ({ sofa }) => {
   return (
     <>
       <Link href="/sofa-item" >
-        {
-          sofa && (
-            <div className={styles.imageContainer} >
-              <img className='w-full' src={sofa.frontImage.fields.file.url} alt={sofa.title} />
-              <div className={styles.description}>
-                <h3 className='text-sm p-px' > {sofa.title} </h3>
-                <p className='text-sm p-px' >pata kwa bei ya TSH {sofa.price}/= </p>
-              </div>
-            </div>
-          )
-        }
+
+        <div className={styles.imageContainer} >
+          <img className='w-full' src={sofa.frontImage.fields.file.url} alt={sofa.title} />
+          <div className={styles.description}>
+            <h3 className='text-sm p-px' > {sofa.title} </h3>
+            <p className='text-sm p-px' >pata kwa bei ya TSH {sofa.price}/= </p>
+          </div>
+        </div>
+
       </Link>
     </>
   )

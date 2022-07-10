@@ -80,7 +80,7 @@ export default function Home() {
           {
             !data ? "loading..." : (
               data.map((item, index) => (
-                < ProductCard key={index} sofa={item.fields} />
+                <h1>Product</h1>
               ))
             )
           }
@@ -176,3 +176,4 @@ export default function Home() {
   )
 }
 
+// < ProductCard key={index} sofa={item.fields} />
