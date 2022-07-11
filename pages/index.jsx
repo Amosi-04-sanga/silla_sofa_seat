@@ -151,7 +151,7 @@ export default function Home() {
                 </a>
               </li>
               <li>
-                <a className=' font-bold mt-2 flex items-center' href="tel:+255765086564">
+                <a className=' font-bold mt-2 flex items-center' href="sms:+255765086564">
                   sms
                   +255765086564
                 </a>
