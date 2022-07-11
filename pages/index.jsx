@@ -217,13 +217,13 @@ export default function Home() {
       <footer className='text-sm py-8 px-4 bg-gray-900 text-white grid grid-cols-1 md:grid-cols-2' >
 
         <ul className='mx-auto my-4' >
-          <li style={{ lineBreak: "none" }} >✔️ <Link href="#about" >About us</Link></li>
-          <li style={{ lineBreak: "none" }} >✔️ <Link href="#services" >services</Link></li>
-          <li style={{ lineBreak: "none" }} >✔️ <Link href="#contacts" >contacts us</Link></li>
+          <li>✔️ <Link href="#about" >about us</Link></li>
+          <li>✔️ <Link href="#services" >services</Link></li>
+          <li>✔️ <Link href="#contacts" >find us</Link></li>
         </ul>
 
         <div className='mx-auto my-8 md:my-0' >
-          <h2 className='text-center' >Contacts</h2>
+          <h2 className='text-center mb-2'>Contacts</h2>
           <p>Email:sillasofaseat@gmail.com</p>
           <p>Phone: 0736468564</p>
           <p>Follow us on social medias:</p>
