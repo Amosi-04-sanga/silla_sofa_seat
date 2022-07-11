@@ -3,7 +3,6 @@
     display: inline-block;
     left: 50%;
     transform: translateX(-50%);
-
 }
 
 .headingUnderline::before {
@@ -11,7 +10,7 @@
     left: 0;
     bottom: -10px;
     content: "";
-    width: 50%;
+    width: 20%;
     height: 4px;
     background-color: rgba(171, 145, 145, 0.457);
 }
@@ -48,8 +47,8 @@
     z-index: 2;
 }
 
-.services {
-    width: 60%;
+.centercontents {
+    width: 70%;
     margin: 4rem auto;
 }
 

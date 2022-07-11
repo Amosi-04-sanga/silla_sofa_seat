@@ -12,7 +12,9 @@
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-
+body {
+  scroll-behavior: smooth;
+}
 
 /* width */
 ::-webkit-scrollbar {
@@ -27,13 +29,13 @@
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(77, 195, 162, 0.742); 
+  background: rgba(194, 211, 226, 1); 
   border-radius: 5px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(77, 195, 162, 0.742); 
+  background: rgba(194, 211, 226, 1); 
 }
 
 a {
