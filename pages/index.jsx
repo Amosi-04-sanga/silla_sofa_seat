@@ -34,23 +34,23 @@ export default function Home() {
     },
     {
       url: "images/sila2.png",
-      title: "image 02",
-      price: "400000"
+      title: "sofa full set",
+      price: "550000"
     },
     {
       url: "images/silasofa1.png",
-      title: "sofa ya kitambaa cheupe",
-      price: "270000"
+      title: "single sofa ya kitambaa cheupe",
+      price: "400000"
     },
     {
       url: "images/silasofa2.png",
-      title: "sofa ya kitambaa cheupe",
-      price: "270000"
+      title: "sofa full set",
+      price: "570000"
     },
     {
       url: "images/silasofa4.png",
       title: "sofa ya kitambaa full set",
-      price: "540000"
+      price: "550000"
     },
     {
       url: "images/silasofa5.png",
@@ -59,28 +59,28 @@ export default function Home() {
     },
     {
       url: "images/silasofa6.png",
-      title: "sofa ya kitambaa full set",
-      price: "540000"
+      title: "sofa ya kitambaa muundo mpya full set",
+      price: "650000"
     },
     {
       url: "images/silasofa7.png",
-      title: "sofa ya kitambaa full set",
+      title: "sofa full set",
       price: "540000"
     },
     {
       url: "images/silasofa18.png",
-      title: "image 18",
-      price: "540000"
+      title: "sofa full set",
+      price: "500000"
     },
     {
       url: "images/silasofa9.png",
       title: "sofa ya kitambaa full set",
-      price: "540000"
+      price: "650000"
     },
     {
       url: "images/silasofa10.png",
-      title: "sofa ya kitambaa full set",
-      price: "540000"
+      title: "sofa full set",
+      price: "650000"
     },
     {
       url: "images/silasofa16.png",
@@ -95,22 +95,22 @@ export default function Home() {
     {
       url: "images/silasofa20.png",
       title: "image 12",
-      price: "540000"
+      price: "570000"
     },
     {
       url: "images/silasofa14.png",
-      title: "sofa ya kitambaa full set",
-      price: "540000"
+      title: "single white sofa",
+      price: "340000"
     },
     {
       url: "images/silasofa17.png",
-      title: "sofa ya kitambaa full set",
-      price: "540000"
+      title: "single white sofa",
+      price: "340000"
     },
     {
       url: "images/silasofa21.png",
       title: "sofa ya kitambaa full set",
-      price: "540000"
+      price: "440000"
     },
 
   ]
@@ -119,17 +119,17 @@ export default function Home() {
     {
       url: "images/silastuli.png",
       title: "image 01",
-      price: "520000"
+      price: "220000"
     },
     {
       url: "images/silastuli1.png",
       title: "stuli za kisasa",
-      price: "400000"
+      price: "200000"
     },
     {
       url: "images/stuli01.jpeg",
       title: "stuli za kisasa",
-      price: "400000"
+      price: "200000"
     },
     
   ]
@@ -138,17 +138,17 @@ export default function Home() {
     {
       url: "images/bed1.png",
       title: "modern sofa bed",
-      price: "440000"
+      price: "500000"
     },
     {
       url: "images/bed2.png",
       title: "modern sofa bed",
-      price: "600000"
+      price: "500000"
     },
     {
       url: "images/bed3.png",
       title: "modern sofa bed",
-      price: "600000"
+      price: "500000"
     },
   ]
 
@@ -381,22 +381,22 @@ export default function Home() {
           <p>Phone: +255765086564</p>
           <p>Follow us on social medias:</p>
           <div className={styles.borderleft} >
-            <span className='cursor-pointer' >
+            <p className='cursor-pointer' >
               <Link href="#" >
                 <div className='flex' >
                   <svg className='w-4 h-4 fill-white mr-1' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z" /></svg>
                   facebook
                 </div>
               </Link>
-            </span>
-            <span className='cursor-pointer my-px' >
+            </p>
+            <p className='cursor-pointer my-1' >
               <Link href="#" >
                 <div className='flex'>
                   <svg className='w-4 h-4 fill-white mr-1' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" /></svg>
                   instagram
                 </div>
               </Link>
-            </span>
+            </p>
           </div>
           <p className='text-center text-green-300 mt-4' > &copy; amos ally</p>
         </div>
