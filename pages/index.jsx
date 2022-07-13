@@ -194,8 +194,8 @@ export default function Home() {
                 <Zoom scale={0.4}>
                   {
                     sofa_images.map((each, index) => (
-                      <div className='relative' >
-                        <img key={index} className={styles.imageGalley} src={each.url} />
+                      <div key={index} className='relative' >
+                        <img className={styles.imageGalley} src={each.url} />
                         <div className="absolute bottom-2 left-0 italic text-sm">
                           <p> {each.title} </p>
                           <p>Bei <b>{Number(each.price).toLocaleString()}/=</b> </p>
@@ -223,8 +223,8 @@ export default function Home() {
                 <Zoom scale={0.4}>
                   {
                     stuli_images.map((each, index) => (
-                      <div className='relative' >
-                        <img key={index} className={styles.imageGalley} src={each.url} />
+                      <div key={index} className='relative' >
+                        <img className={styles.imageGalley} src={each.url} />
                         <div className="absolute bottom-2 left-0 italic text-sm">
                           <p> {each.title} </p>
                           <p>Bei <b>{Number(each.price).toLocaleString()}/=</b> </p>
@@ -253,7 +253,7 @@ export default function Home() {
                 <Zoom scale={0.4}>
                   {
                     bed_images.map((each, index) => (
-                      <div className='relative' >
+                      <div key={index} className='relative' >
                         <img key={index} className={styles.imageGalley} src={each.url} />
                         <div className="absolute bottom-2 left-0 italic text-sm">
                           <p> {each.title} </p>
