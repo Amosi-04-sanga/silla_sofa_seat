@@ -89,12 +89,12 @@ export default function Home() {
     },
     {
       url: "images/silasofa12.png",
-      title: "title",
+      title: "new modern sofa",
       price: "540000"
     },
     {
       url: "images/silasofa20.png",
-      title: "image 12",
+      title: "new modern sofa",
       price: "570000"
     },
     {
@@ -118,7 +118,7 @@ export default function Home() {
   const stuli_images = [
     {
       url: "images/silastuli.png",
-      title: "image 01",
+      title: "stuli za kisasa",
       price: "220000"
     },
     {
