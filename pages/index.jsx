@@ -189,7 +189,7 @@ export default function Home() {
           <ul >
             <li className='my-8' >
               <h3 className='text-center font-bold uppercase my-4' >sofa za kisasa pamoja na mito</h3>
-              <p className={styles.smallText} >Tunauzoefu mkubwa wa kutengeneza sofa ya kila aina. Kwa mahitaji ya sofa pamoja na mito, wasiliana nasi tunakufikia mahali popote ulipo Tanzania. kwa maongezi zaidi <span className='text-blue-800'><Link href="#contacts" >wasiliana nasi</Link></span>.</p>
+              <p className={styles.smallText} >Tunauzoefu mkubwa wa kutengeneza sofa ya kila aina. Kwa mahitaji ya sofa pamoja na mito, wasiliana nasi kwa maeneo ya jirani tunakufikia mahali popote ulipo. kwa maongezi zaidi <span className='text-blue-800'><Link href="#contacts" >wasiliana nasi</Link></span>.</p>
               <div className={styles.galleyContainer} >
                 <Zoom scale={0.4}>
                   {
@@ -344,7 +344,7 @@ export default function Home() {
             </div>
             <div className={`${styles.smallText} bg-orange-100 py-4 my-4`} >
               <p className='mt-4' >swali: naweza nika safilishiwa kama nipo mbali ?</p>
-              <p className='italic' >jibu: Ndiyo</p>
+              <p className='italic' >jibu: Ndiyo, kwa maeneo ya jirani</p>
             </div>
           </div>
 
