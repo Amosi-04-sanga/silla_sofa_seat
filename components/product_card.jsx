@@ -13,7 +13,7 @@ const product_card = ({ sofa }) => {
           <img className='w-full' src={sofa.frontImage.fields.file.url} alt={sofa.title} />
           <div className={styles.description}>
             <h3 className='text-sm p-px' > {sofa.title} </h3>
-            <p className='text-sm p-px' >pata kwa bei ya TSH {sofa.price}/= </p>
+            <p className='text-sm p-px' >pata kwa bei ya TSH {Number(sofa.price).toLocaleString()} /= </p>
           </div>
         </div>
 
